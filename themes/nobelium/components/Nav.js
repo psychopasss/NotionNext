@@ -68,7 +68,7 @@ const Nav = props => {
             </div>
           </SmartLink>
           {post ? (
-            <p className='ml-2 max-h-12 line-clamp-2 overflow-ellipsis font-medium text-gray-800 dark:text-gray-300 header-name'>
+            <p className='ml-1 max-h-12 line-clamp-2 overflow-ellipsis font-medium text-gray-800 dark:text-gray-300 header-name'>
               {post?.title}
             </p>
           ) : (
